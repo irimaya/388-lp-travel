@@ -1,0 +1,52 @@
+.showcase {
+	background: url('/images/showcase.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.pb-6 {
+	padding-bottom: 170px;
+}
+
+h1 {
+	letter-spacing: 20px;
+}
+
+h1 .header-space {
+	letter-spacing: 75px;
+}
+
+.showcase-img {
+	padding-top: 80px;
+}
+
+.showcase-img img {
+	height: 500px;
+	border-radius: 10px;
+}
+
+.showcase-img img:nth-child(2) {
+	margin-top: 80px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.showcase {
+		height: 100%;
+	}
+	.pb-6 {
+		padding-bottom: 90px;
+	}
+	.showcase-img img {
+		display: none;
+	}
+
+	h1 {
+		letter-spacing: 20px;
+	}
+
+	h1 .header-space {
+		letter-spacing: 20px;
+	}
+}
