@@ -1,12 +1,8 @@
 .showcase {
-	background: url('/images/showcase.jpg');
+	background: url(/images/showcase.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-}
-
-.pb-6 {
-	padding-bottom: 170px;
 }
 
 h1 {
@@ -15,6 +11,10 @@ h1 {
 
 h1 .header-space {
 	letter-spacing: 75px;
+}
+
+.pb-6 {
+	padding-bottom: 170px;
 }
 
 .showcase-img {
@@ -41,11 +41,7 @@ h1 .header-space {
 	.showcase-img img {
 		display: none;
 	}
-
-	h1 {
-		letter-spacing: 20px;
-	}
-
+	h1,
 	h1 .header-space {
 		letter-spacing: 20px;
 	}
